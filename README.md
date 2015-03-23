@@ -18,7 +18,7 @@ Typical way to compile and run Template from Linux-like environment - type the f
 
 	Initial list of files and folders, and descriptions:
 	
-Base folder
+Base folder:
 
 run.sh:		 	 The Linux or Linux-like shell script to run the entire C program
 
@@ -32,7 +32,7 @@ src/
 
 Wc.c		 		 The C source code
  
-wc_input/
+wc_input/:
 
 Line1.txt .. Line4.txt:	 Four text files, each containing one sentence from the four sentence example given in Insight Data Engineering project description
  
@@ -48,7 +48,8 @@ LoremIpsum1.txt:		 Contains words generated using Lorem Ipsum machine:  http://w
 LoremIpsum2.txt:		 Contains more words generated using Lorem Ipsum machine:  http://www.lipsum.com/
  
 wc_input/LARGE_FILE/:
- RandomSentences.txt:		 A 980 kb file of nonsense words (with spaces and line feeds), generated using a C program I developed in C (not included)
+
+RandomSentences.txt:		 A 980 kb file of nonsense words (with spaces and line feeds), generated using a C program I developed in C (not included)
 
  
  
