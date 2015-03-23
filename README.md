@@ -7,6 +7,7 @@ Typical way to compile and run Template from Linux-like environment - type the f
 
 
 	How to use this program:  three options for input text files
+	
 1)  Run as is, and it grabs text from four input files, each containing one of the sentences given in the Insight Data Engineering project description.  On a PC Intel Core Duo CPU, 2 GHz, 3 GB of RAM, the run time was nearly instantaneous.
 
 2)  Working in wc_input directory, remove all *.txt files in the folder, and in their place, copy the two files in directory LOREM_IPSUM into wc_input/.  These two text files are a bit longer, and show the program can handle modest size text files.  On a PC Intel Core Duo CPU, 2 GHz, 3 GB of RAM, the run time was a few seconds.
@@ -16,6 +17,7 @@ Typical way to compile and run Template from Linux-like environment - type the f
 
 
 	Initial list of files and folders, and descriptions:
+	
 Base folder
  run.sh:		 	 The Linux or Linux-like shell script to run the entire C program
  src:	 			 Contains C source code
